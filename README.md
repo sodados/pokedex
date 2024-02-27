@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## ポケモン図鑑っぽいもの
+- pokeapiのデータ使用
+- 図鑑説明
+  - フレーバーテキスト重視
+  - 高さや重さ比較とかするかも
+- モチベあればすばやさ比較ツールも
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 使用技術（予定）
+- Ruby on Rails
+  - hotwire試してみたい
+- tailwindcss
+- (React)
+    - 一旦作った後置き換える（実際の現場でのリプレイス想定）
+    - Railsapiモード + next.js
+### PaaS
+- Render.com
+- PlanetScale
+- (Vercel)
+  - next.js使う時がもし来たら
