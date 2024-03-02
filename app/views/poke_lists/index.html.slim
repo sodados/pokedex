@@ -1,15 +1,22 @@
-.flex.justify-center.my-4.text-5xl.font-bold.font-mono.text-lime-500
-  | ぽけもん
+.bg-emerald-200
+  .flex.justify-between.my-2.text-3xl.font-bold.font-mono.text-gray-800
+    span.ml-2.my-4
+      | Pokedex
+    
 
 .grid.grid-cols-2.gap-4.justify-items-center.items-center
   .bg-slate-200.rounded-lg.justify-center.p-2
-    = image_tag 'poke_image/other/official-artwork/1.png', alt: '1-picture', class: 'rounded-t-lg bg-white mx-auto shadow-md'
+    = image_tag 'poke_image/other/official-artwork/1.png', alt: '1-picture', class: 'rounded-full bg-white mx-auto shadow-md', width: '80%', height: '80%'
     .p-2
       .text-center.text-1xl.font-mono
         | フシギダネ
-
+    .font-normal.text-gray-700
+      | タイプ
   .bg-slate-200.rounded-lg.justify-center.p-2
-    = image_tag 'poke_image/other/official-artwork/132.png', alt: '132-picture', class: 'rounded-t-lg bg-white mx-auto shadow-md'
+    = image_tag 'poke_image/other/official-artwork/2.png', alt: '2-picture', class: 'rounded-full bg-white mx-auto shadow-md', width: '80%', height: '80%'
     .p-2
       .text-center.text-1xl.font-mono
-        | メタモン
+        | フシギソウ
+    .font-normal.text-gray-700
+      | タイプ
+      
