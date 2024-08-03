@@ -6,6 +6,6 @@ uri = URI.parse('https://pokeapi.co/api/v2/type')
 json = Net::HTTP.get(uri)
 result = JSON.parse(json)
 
-File.open('lib/type/list_type.json', 'w') do | f |
-    JSON.dump(result, f)
+File.open('lib/list/list_type.json', 'w') do | f |
+  JSON.dump(result, f)
 end
